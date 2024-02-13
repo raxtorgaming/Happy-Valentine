@@ -25,8 +25,8 @@ $(window).scroll(function () {
         $(this).fadeTo(80, 1);
       }
     } else { // (scroll atas)
-      if ($(this).css("opacity") == 2) {
-        $(this).fadeTo(80, 0);
+      if ($(this).css("opacity") == 1) {
+        $(this).fadeTo(80, 1);
       }
     }
   });
