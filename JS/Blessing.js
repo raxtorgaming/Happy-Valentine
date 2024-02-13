@@ -22,11 +22,11 @@ $(window).scroll(function () {
     if (objectBottom < windowBottom) { // (scrolling bawah)
       if ($(this).css("opacity") == 0) {
         $(this).css( "30%"); // Set radius di sini
-        $(this).fadeTo(200, 1);
+        $(this).fadeTo(80, 1);
       }
     } else { // (scroll atas)
       if ($(this).css("opacity") == 1) {
-        $(this).fadeTo(200, 0);
+        $(this).fadeTo(80, 0);
       }
     }
   });
